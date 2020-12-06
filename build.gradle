@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+    id 'eclipse'
+}
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.google.guava:guava:29.0-jre'
+	compile 'org.json:json:20200518'
+
+    testImplementation 'junit:junit:4.13'
+}
