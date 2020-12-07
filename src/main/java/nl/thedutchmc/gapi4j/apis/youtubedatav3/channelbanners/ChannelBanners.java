@@ -21,6 +21,8 @@ public class ChannelBanners {
 	 * This method supports media upload. Uploaded files must conform to these constraints: <br>
 	 * - Maximum file size: 6MB <br>
 	 * Quata cost: 50 units<br>
+	 * <br>
+	 * <a href="https://developers.google.com/youtube/v3/docs/channelBanners/insert"> Google documentation</a>
 	 * @param listParameters Parameters to send along with the request
 	 * @return Returns the response from the API
 	 * @throws IOException

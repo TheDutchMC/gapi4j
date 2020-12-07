@@ -159,7 +159,7 @@ public class ListParameters extends RequestParameters {
 	/**
 	 * The maxResults parameter specifies the maximum number of items that should be returned in the result set. Acceptable values are 0 to 50, inclusive. The default value is 5.
 	 * @param maxResults
-	 * @throws IndexOutOfBoundsException Thrown when maxResults is negative or larger than 50
+	 * @throws IndexOutOfBoundsException Thrown when maxResults is negative or larger than 50eeee
 	 */
 	public void setMaxResults(int maxResults) throws IndexOutOfBoundsException {
 		if(maxResults < 0 || maxResults > 50) {

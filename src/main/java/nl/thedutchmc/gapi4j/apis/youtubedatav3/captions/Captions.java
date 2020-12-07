@@ -15,6 +15,8 @@ public class Captions {
 	 * Returns a list of caption tracks that are associated with a specified video. Note that the API response does not contain the actual captions and that the Captions.getDownload() method provides the ability to retrieve a caption track.<br>
 	 * <br>
 	 * Quata cost: 50 units<br>
+	 * <br>
+	 * <a href="https://developers.google.com/youtube/v3/docs/captions/list"> Google documentation</a>
 	 * @param params Parameters to send along with the request
 	 * @return Returns the response from the API
 	 * @throws IOException
@@ -54,11 +56,14 @@ public class Captions {
 	}
 	
 	//TODO Figure out how to send both a request body and a file for this method to work
+	
 	/**Uploads a caption track.<br>
 	 * <br>
 	 * <strong> A request body must be provided using {@link InsertParameters#setRequestBody(String)} </strong><br>
 	 * <br>
 	 * Quata cost: 400 units<br>
+	 * <br>
+	 * <a href="https://developers.google.com/youtube/v3/docs/captions/insert"> Google documentation</a>
 	 * @param params Parameters to send along with the request
 	 * @return Returns the response from the API
 	 * @throws IOException
@@ -98,6 +103,7 @@ public class Captions {
 	}
 	
 	//TODO Figure out how to send both a request body and a file for this method to work
+	
 	/**
 	 * Updates a caption track. When updating a caption track, you can change the track's <a href="https://developers.google.com/youtube/v3/docs/captions#snippet.isDraft">draft status</a>, upload a new caption file for the track, or both.<br>
 	 * <br>
@@ -105,6 +111,8 @@ public class Captions {
 	 * Maximum file size: 100MB<br>
 	 * <br>
 	 * <strong> A request body must be provided using {@link InsertParameters#setRequestBody(String)} </strong><br>
+	 * <br>
+	 * <a href="https://developers.google.com/youtube/v3/docs/captions/update"> Google documentation</a>
 	 * Quata cost: 450 units<br>
 	 * @param params Parameters to send along with the request
 	 * @return Returns the response from the API
@@ -147,6 +155,8 @@ public class Captions {
 	/**
 	 * Downloads a caption track. The caption track is returned in its original format unless the request specifies a value for the tfmt parameter and in its original language unless the request specifies a value for the tlang parameter.<br>
 	 * Quata cost: 200 units<br>
+	 * <br>
+	 * <a href="https://developers.google.com/youtube/v3/docs/captions/download"> Google documentation</a>
 	 * @param params Parameters to send along with the request
 	 * @return Returns the response from the API
 	 * @throws IOException
@@ -194,6 +204,8 @@ public class Captions {
 	/**
 	 * Deletes a specified caption track. <br>
 	 * Quata cost: 50 units<br>
+	 * <br>
+	 * <a href="https://developers.google.com/youtube/v3/docs/captions/delete"> Google documentation</a>
 	 * @param params Parameters to send along with the request
 	 * @return Returns the response from the API
 	 * @throws IOException

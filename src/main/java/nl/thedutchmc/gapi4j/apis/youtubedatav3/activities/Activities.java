@@ -14,6 +14,8 @@ public class Activities {
 	 * Returns a list of channel activity events that match the request criteria. For example, you can retrieve events associated with a particular channel or with the user's own channel.<br>
 	 * <br>
 	 * Quota cost: 1 unit<br>
+	 * <br>
+	 * <a href="https://developers.google.com/youtube/v3/docs/activities/list"> Google documentation</a>
 	 * @param listParameters Parameters to send along with the request
 	 * @param apiKey API key to use to authorize the request
 	 * @return Returns the response from the API
